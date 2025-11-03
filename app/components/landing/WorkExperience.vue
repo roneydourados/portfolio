@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { IndexCollectionItem } from '@nuxt/content'
+import type { IndexCollectionItem } from "@nuxt/content";
 
 defineProps<{
-  page: IndexCollectionItem
-}>()
+  page: IndexCollectionItem;
+}>();
 </script>
 
 <template>
@@ -12,7 +12,7 @@ defineProps<{
     :ui="{
       container: '!p-0 gap-4 sm:gap-4',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'mt-2'
+      description: 'mt-2',
     }"
   >
     <template #description>
@@ -26,32 +26,37 @@ defineProps<{
           :in-view-options="{ once: true }"
           class="text-muted flex items-center text-nowrap gap-2"
         >
-          <p class="text-sm">
-            {{ experience.date }}
-          </p>
-          <USeparator />
-          <ULink
-            class="flex items-center gap-1"
-            :to="experience.company.url"
-            target="_blank"
-          >
-            <span class="text-sm">
-              {{ experience.position }}
-            </span>
-            <div
-              class="inline-flex items-center gap-1"
-              :style="{ color: experience.company.color }"
-            >
-              <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+          <div class="flex-col gap-2">
+            <div class="flex gap-2">
+              <p class="text-sm">
+                {{ experience.date }}
+              </p>
+              <span class="text-sm">
+                {{ experience.position }}
+              </span>
             </div>
-          </ULink>
+
+            <div class="flex gap-2">
+              <USeparator />
+              <ULink
+                class="flex items-center gap-1"
+                :to="experience.company.url"
+                target="_blank"
+              >
+                <div
+                  class="inline-flex items-center gap-1"
+                  :style="{ color: experience.company.color }"
+                >
+                  <span class="font-medium">{{ experience.company.name }}</span>
+                  <UIcon :name="experience.company.logo" />
+                </div>
+              </ULink>
+            </div>
+          </div>
         </Motion>
       </div>
     </template>
   </UPageSection>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
