@@ -26,8 +26,7 @@ hero:
 about:
   title: "Sobre Mim"
   description: |
-    Como designer UX/UI e desenvolvedor front-end com 6 anos de experiência, aproveito meu diploma em Design Interativo da Boston University para criar experiências digitais centradas no usuário.
-    Minha abordagem combina estratégia criativa com expertise técnica, transformando conceitos em produtos digitais funcionais e significativos que integram perfeitamente design e tecnologia.
+    Sou desenvolvedor full stack com mais de 20 anos de experiência em tecnologia, atuando na criação de soluções web e mobile completas. Domino TypeScript, JavaScript, C#, Delphi e Flutter, integrando design, lógica de negócio e performance em cada projeto. Minha trajetória combina visão estratégica e sólida base técnica, resultando em produtos digitais robustos, escaláveis e focados na melhor experiência do usuário.
 experience:
   title: "Experiência Profissional"
   items:
@@ -71,39 +70,39 @@ blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Perguntas Frequentes
+  description: Respostas para perguntas comuns sobre meu processo e serviços.
   categories:
-    - title: Services & Process
+    - title: Serviços & Processo
       questions:
-        - label: What services do you offer?
+        - label: Quais serviços você oferece?
           content: |
             I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+        - label: Como é o seu processo de design?
           content: |
             My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+        - label: Você trabalha com startups?
           content: |
             Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+    - title: Precificação & Prazos
       questions:
-        - label: How much does a project typically cost?
+        - label: Quanto custa um projeto, em média?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Os custos dos projetos variam com base no escopo, complexidade, recursos e cronograma. Para projetos abrangentes de design UX/UI e desenvolvimento front-end, meus contratos geralmente começam em torno de R$ 25.000, com projetos médios variando entre R$ 40.000 e R$ 125.000. Para consultoria ou tarefas de design específicas, minha taxa diária é de R$ 3.500.
+        - label: Quais são suas condições de pagamento?
           content: |
             I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+        - label: Quanto tempo leva um projeto típico?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            Os prazos dependem muito do escopo e da complexidade do projeto. Projetos menores podem levar de 3 a 4 semanas, enquanto projetos maiores e mais complexos podem variar de 2 a 4 meses. Sempre forneço uma estimativa de cronograma detalhada após a fase de descoberta inicial.
+        - label: Você oferece contratos de manutenção ou suporte contínuo?
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Sim, para clientes que precisam de suporte de design contínuo, desenvolvimento de recursos ou manutenção, ofereço opções de contrato mensal adaptadas a necessidades específicas. Vamos discutir se isso é algo que você está interessado.
+    - title: Sobre Mim
       questions:
-        - label: What do you enjoy most about your work?
+        - label: O que você mais gosta em seu trabalho?
           content: |
             I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+        - label: Quais são seus hobbies fora do trabalho?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            Quando não estou projetando ou codificando, gosto de explorar os bairros de Boston, experimentar novas cafeterias e fazer trilhas nas reservas próximas. Também sou apaixonado por fotografia e ocasionalmente contribuo para projetos de código aberto.
